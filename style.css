@@ -1,0 +1,53 @@
+body {
+
+    background-color: teal;
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: solid;
+    padding: 7px 25px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    top: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    line-height: 200px;
+  }
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+      
+}
+.caption {
+    display: block;
+}
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
